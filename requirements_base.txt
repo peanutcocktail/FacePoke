@@ -31,8 +31,9 @@ matplotlib==3.7.2
 tyro==0.8.5
 chumpy==0.70
 
-diffusers==0.30.3
+#diffusers==0.30.3
 #accelerate==0.34.2
+diffusers
 accelerate
 tensorflow==2.12.0
 tensorboard==2.12.0
