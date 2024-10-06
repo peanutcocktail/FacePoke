@@ -10,8 +10,10 @@ gradio-webrtc==0.0.1
 opuslib==3.0.1
 
 pyyaml==6.0.1
-numpy==1.22.0 # Updated to resolve conflicts
-opencv-python==4.8.1.78 # Downgraded to be compatible with numpy
+#numpy==1.22.0 # Updated to resolve conflicts
+#opencv-python==4.8.1.78 # Downgraded to be compatible with numpy
+numpy
+opencv-python
 scipy==1.10.1
 imageio==2.31.1
 imageio-ffmpeg==0.5.1
