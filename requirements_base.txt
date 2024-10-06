@@ -3,9 +3,10 @@
 # --------------------------------------------------------------------
 
 # note: gradio is only used for the cropping utility
-gradio==5.0.0b4
-
-gradio-webrtc==0.0.1
+gradio
+gradio-webrtc
+#gradio==5.0.0b4
+#gradio-webrtc==0.0.1
 
 opuslib==3.0.1
 
