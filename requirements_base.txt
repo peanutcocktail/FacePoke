@@ -37,8 +37,8 @@ chumpy==0.70
 #tensorboard==2.12.0
 #soundfile==0.12.1
 #transformers==4.39.2
-diffusers
-accelerate
+diffusers>=0.30.0
+accelerate>0.34.0
 tensorflow
 tensorboard
 soundfile
