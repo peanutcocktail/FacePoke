@@ -34,18 +34,24 @@ chumpy==0.70
 #diffusers==0.30.3
 #accelerate==0.34.2
 #tensorflow==2.12.0
-tensorboard==2.12.0
+#tensorboard==2.12.0
+#soundfile==0.12.1
+#transformers==4.39.2
 diffusers
 accelerate
 tensorflow
 tensorboard
-soundfile==0.12.1
-transformers==4.39.2
+soundfile
+transformers
 
-gdown==5.2.0
-requests==2.32.3
-omegaconf==2.3.0
-moviepy==1.0.3
+gdown
+requests
+omegaconf
+moviepy
+#gdown==5.2.0
+#requests==2.32.3
+#omegaconf==2.3.0
+#moviepy==1.0.3
 
 pydantic==2.9.2
 
