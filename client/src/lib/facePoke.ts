@@ -168,7 +168,7 @@ export class FacePoke {
     console.log(`[FacePoke][${this.connectionId}] Initializing WebSocket connection`);
 
     const connect = () => {
-      this.ws = new WebSocket(`wss://${window.location.host}/ws`);
+      this.ws = new WebSocket(`ss://${window.location.host}/ws`);
 
       this.ws.onopen = this.handleWebSocketOpen.bind(this);
       this.ws.onmessage = this.handleWebSocketMessage.bind(this);
