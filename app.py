@@ -172,7 +172,7 @@ if __name__ == "__main__":
         app = asyncio.run(initialize_app())
         logger.info("Application initialized, starting web server")
         #web.run_app(app, host="0.0.0.0", port=8080)
-        web.run_app(app, port=8080)
+        web.run_app(app, host="127.0.0.1", port=8080)
     except Exception as e:
         logger.critical(f"🚨 FATAL: Failed to start the app: {str(e)}")
         logger.exception("Full traceback:")
