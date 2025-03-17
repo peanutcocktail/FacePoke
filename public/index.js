@@ -17266,7 +17266,7 @@
                   workInProgress2,
                   renderLanes2,
                   // TODO: When we delete legacy mode, we should make this error argument
-                  // required — every concurrent mode path that causes hydration to
+                  // required -- every concurrent mode path that causes hydration to
                   // de-opt to client rendering should have an error message.
                   null
                 );
@@ -18471,7 +18471,7 @@
                 if (current2 !== null) {
                   var _prevState = current2.memoizedState;
                   var prevIsHidden = _prevState !== null;
-                  if (prevIsHidden !== nextIsHidden && // LegacyHidden doesn't do any hiding — it only pre-renders.
+                  if (prevIsHidden !== nextIsHidden && // LegacyHidden doesn't do any hiding -- it only pre-renders.
                   !enableLegacyHidden) {
                     workInProgress2.flags |= Visibility;
                   }
@@ -20354,7 +20354,7 @@
           function isLegacyActEnvironment(fiber) {
             {
               var isReactActEnvironmentGlobal = (
-                // $FlowExpectedError – Flow doesn't know about IS_REACT_ACT_ENVIRONMENT global
+                // $FlowExpectedError -- Flow doesn't know about IS_REACT_ACT_ENVIRONMENT global
                 typeof IS_REACT_ACT_ENVIRONMENT !== "undefined" ? IS_REACT_ACT_ENVIRONMENT : void 0
               );
               var jestIsDefined = typeof jest !== "undefined";
@@ -20364,7 +20364,7 @@
           function isConcurrentActEnvironment() {
             {
               var isReactActEnvironmentGlobal = (
-                // $FlowExpectedError – Flow doesn't know about IS_REACT_ACT_ENVIRONMENT global
+                // $FlowExpectedError -- Flow doesn't know about IS_REACT_ACT_ENVIRONMENT global
                 typeof IS_REACT_ACT_ENVIRONMENT !== "undefined" ? IS_REACT_ACT_ENVIRONMENT : void 0
               );
               if (!isReactActEnvironmentGlobal && ReactCurrentActQueue.current !== null) {
